@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-hirsch",
+  "version": "1.0.0",
+  "description": "My eslint rules",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanhirsch/eslint-config-hirsch.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Ryan Hirsch <ryan.hirsch@gmail.com> (http://hirsch.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanhirsch/eslint-config-hirsch/issues"
+  },
+  "homepage": "https://github.com/ryanhirsch/eslint-config-hirsch#readme"
+}
