@@ -1,23 +1,4 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true,
-    "mocha": true
-  },
-  "extends": [ "eslint:recommended", "plugin:react/recommended" ],
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
-      "jsx": true
-    },
-    "sourceType": "module"
-  },
-  "plugins": [
-    "react",
-    "babel"
-  ],
   "rules": {
     "accessor-pairs": "error",
     "array-bracket-spacing": "off",
@@ -143,6 +124,7 @@ module.exports = {
     "no-console": ["error", { allow: ["warn", "error"] }],
     "no-continue": "error",
     "no-div-regex": "error",
+    "no-dupe-keys": "error",
     "no-duplicate-imports": "error",
     "no-else-return": "error",
     "no-empty-function": "error",
@@ -199,6 +181,7 @@ module.exports = {
     "no-ternary": "off",
     "no-throw-literal": "error",
     "no-trailing-spaces": "error",
+    "no-undef": "error",
     "no-undef-init": "error",
     "no-undefined": "off",
     "no-underscore-dangle": "off",
@@ -263,6 +246,11 @@ module.exports = {
     "yoda": [
       "error",
       "never"
-    ]
+    ],
+
+    "react/forbid-prop-types": "error",
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-undef": "error",
+    "react/prop-types": "error"
   }
 }
