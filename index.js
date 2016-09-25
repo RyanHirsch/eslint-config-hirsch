@@ -72,10 +72,6 @@ module.exports = {
     "id-match": "error",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "init-declarations": "off",
-    "jsx-quotes": [
-      "error",
-      "prefer-double"
-    ],
     "key-spacing": "off",
     "keyword-spacing": [
       "error",
@@ -246,11 +242,6 @@ module.exports = {
     "yoda": [
       "error",
       "never"
-    ],
-
-    "react/forbid-prop-types": "error",
-    "react/jsx-no-duplicate-props": "error",
-    "react/jsx-no-undef": "error",
-    "react/prop-types": "error"
+    ]
   }
 }
