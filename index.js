@@ -12,8 +12,8 @@ module.exports = {
         "before": true
       }
     ],
-    "babel/generator-star-spacing": "error",
-    "babel/arrow-parens": [ "error", "as-needed" ],
+    "generator-star-spacing": "error",
+    "arrow-parens": [ "error", "as-needed" ],
     "block-scoped-var": "error",
     "block-spacing": "error",
     "brace-style": [
